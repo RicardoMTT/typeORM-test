@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var entidad_controller_1 = require("../controllers/entidad.controller");
+var router = express_1.Router();
+router.get("/entidad", entidad_controller_1.getEntities);
+router.post("/entidad", entidad_controller_1.createEntity);
+router.delete("/entidad/:id", entidad_controller_1.deleteEntity);
+router.put("/entidad/:id", entidad_controller_1.updateEntity);
+exports.default = router;
