@@ -8,3 +8,7 @@ Implementacion del uso de TypeORM para el mantenimiento de tablas con una Base d
 
 ## Ejecutar proyecto
 `npm start`
+
+
+## Connection client mysql workbench to gcp instance SQL
+`https://www.youtube.com/watch?v=KB8r-tuOdOw`
